@@ -1,5 +1,8 @@
+import { useParams } from 'react-router-dom';
+
 function GameDetailPage() {
-  return <div>Game Detail Page</div>;
+  const { title } = useParams();
+  return <div>Game Detail Page for game: {title} </div>;
 }
 
 export default GameDetailPage;
