@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <div className="flex min-h-screen bg-zinc-800 text-zinc-300">
           <SideNav />
-          <div className="container mx-auto px-3">
+          <div className="mx-5 my-5">
             <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/library" element={<LibraryPage />} />
